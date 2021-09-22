@@ -11,20 +11,20 @@
    <h1>Border Radius Preview</h1>
 
    <div id="input-radius">
-    <input type="number" name="input_top_l">
-    <input type="number" name="input_top_r">
-    <input type="number" name="input_bottom_l">
-    <input type="number" name="input_bottom_r">
+    <input type="number" id="input_top_l" value="0">
+    <input type="number" id="input_top_r" value="0"></br>
+    <input type="number" id="input_bottom_l" value="0">
+    <input type="number" id="input_bottom_r" value="0">
 
    </div>
 
    <div id="input-copy"> 
-    <input type="text" value="" id="myInput">
-    <button onclick="myFunction()">Copy code</button>
+    <input type="text" id="input-prop" value="border-radius: 0px 0px 0px 0px;" readonly>
+    <button onclick="myFunction()">Copy text</button>
 
    </div>
     
-    <p id="box_preview"></p>
+    <p id="box-preview"></p>
 </body>
 <script src="app.js"></script>
 </html>
